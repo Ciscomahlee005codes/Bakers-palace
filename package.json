@@ -2,7 +2,6 @@
   "name": "unicity",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://ciscomahlee005codes.github.io/Bakers-palace",
   "type": "module",
   "scripts": {
     "dev": "vite",
