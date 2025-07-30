@@ -154,14 +154,32 @@ position: relative;
   color: crimson;
 }
 
+.bottom-cart-icon {
+  position: relative;
+}
+
 .bottom-cart-dot {
   position: absolute;
-  top: 2px;
-  right: 10px;
-  width: 8px;
-  height: 8px;
+  top: -2px;
+  right: -6px;
+  width: 10px;
+  height: 10px;
   background-color: crimson;
   border-radius: 50%;
+}
+.bottom-cart-dot {
+  animation: popIn 0.3s ease;
+}
+
+@keyframes popIn {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 
@@ -179,48 +197,6 @@ position: relative;
    .icon2{
     display: none;
   }
-  .bottom-cart-dot {
-  position: absolute;
-  top: 0;
-  right: 27.5rem;
-  width: 10px;
-  height: 10px;
-  background-color: crimson;
-  border-radius: 50%;
-}
-}
-@media (max-width: 834px) {
-   .bottom-cart-dot {
-  position: absolute;
-  top: 0;
-  right: 26rem;
-  width: 10px;
-  height: 10px;
-  background-color: crimson;
-  border-radius: 50%;
-}
-}
-@media (max-width: 800px) {
-   .bottom-cart-dot {
-  position: absolute;
-  top: 0;
-  right: 25.5rem;
-  width: 10px;
-  height: 10px;
-  background-color: crimson;
-  border-radius: 50%;
-}
-}
-@media (max-width: 768px) {
-   .bottom-cart-dot {
-  position: absolute;
-  top: 0;
-  right: 24.5rem;
-  width: 10px;
-  height: 10px;
-  background-color: crimson;
-  border-radius: 50%;
-}
 }
 @media (max-width: 430px) {
   .icon2{
@@ -251,15 +227,6 @@ position: relative;
   border-radius: 8px;
   font-size:  10px;
   font-weight: 500;
-}
-.bottom-cart-dot {
-  position: absolute;
-  top: 0;
-  right: 13.6rem;
-  width: 10px;
-  height: 10px;
-  background-color: crimson;
-  border-radius: 50%;
 }
 }
 @media (max-width: 414px) {
@@ -294,15 +261,6 @@ position: relative;
      padding: 5px 15px;
      border-radius: 50px;
      cursor: pointer;
-}
-.bottom-cart-dot {
-  position: absolute;
-  top: 0;
-  right: 12.6rem;
-  width: 10px;
-  height: 10px;
-  background-color: crimson;
-  border-radius: 50%;
 }
 }
 @media (max-width: 375px) {
@@ -351,15 +309,6 @@ position: relative;
      border-radius: 50px;
      cursor: pointer;
 }
-.bottom-cart-dot {
-  position: absolute;
-  top: 0;
-  right: 12rem;
-  width: 10px;
-  height: 10px;
-  background-color: crimson;
-  border-radius: 50%;
-}
 }
 
 @media (max-width: 320px) {
@@ -380,15 +329,6 @@ position: relative;
      padding: 5px 5px;
      border-radius: 50px;
      cursor: pointer;
-}
-.bottom-cart-dot {
-  position: absolute;
-  top: 0;
-  right: 10.3rem;
-  width: 10px;
-  height: 10px;
-  background-color: crimson;
-  border-radius: 50%;
 }
 .hello-user {
   color: #ffffff;

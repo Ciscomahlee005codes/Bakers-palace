@@ -85,14 +85,14 @@ const NavBar = ({ setShowLogIn }) => {
           <span>Search</span>
         </Link>
 
-        <Link
-          to="/cart"
-          className={location.pathname === "/cart" ? "active" : ""}
-        >
-          <BsCart4 id="down-icon" />
-          {hasItemsInCart && <div className="bottom-cart-dot"></div>}
-          <span>Orders</span>
-        </Link>
+        <Link to="/cart" className={location.pathname === "/cart" ? "active" : ""}>
+  <div className="bottom-cart-icon">
+    <BsCart4 id="down-icon" />
+    {hasItemsInCart && <div className="bottom-cart-dot"></div>}
+  </div>
+  <span>Orders</span>
+</Link>
+
 
         <Link
           to="/contact"
