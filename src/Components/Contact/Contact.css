@@ -1,0 +1,91 @@
+.contact-message form input,
+ .contact-message form textarea{
+  display: block;
+  width: 100%;
+  padding: 15px;
+  /* border: none;
+  outline: 0; */
+  margin-bottom: 15px;
+  margin-top: 5px;
+  resize: none;
+}
+.contact-box{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 30px;
+}
+.contact-message form input, .contact-message form textarea{
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #c5c5c5;
+    border-radius: 4px;
+    outline-color: crimson;
+}
+.contact-content h2{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.contact-content p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.contact-message h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.contact-message h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.contact-info ul{
+    display: grid;
+    gap: 30px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+form button{
+    border: none;
+    background-color: crimson;
+    color: white;
+    width: max(15vw, 200px);
+    padding: 12px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+     transition: opacity 0.3s ease, background-color 0.3s ease;
+}
+form button.proceeding {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+@media (max-width: 768px) {
+    .contact-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+.contact-content h2{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+form button{
+    border: none;
+    background-color: crimson;
+    color: white;
+    width: max(15vw, 200px);
+    padding: 12px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+     transition: opacity 0.3s ease, background-color 0.3s ease;
+}
+}

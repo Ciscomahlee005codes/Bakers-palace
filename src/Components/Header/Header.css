@@ -1,0 +1,120 @@
+.header{
+    height: 35vw;
+    /* margin: 30px auto; */
+    background: url('/header-img-1.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 20px;
+    /* filter: brightness(80%); */
+}
+.header-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 35vw;
+     border-radius: 20px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.header-content{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 50%;
+    bottom: 10%;
+    left: 6vw;
+    animation: fadeIn 3s;
+}
+.header-content h2{
+    font-weight: 500;
+    color: #fff;
+    font-size: max(4.5vw,22px);
+}
+.header-content p{
+    font-size: 1vw;
+    color: #fff;
+}
+.header-content button{
+    border: none;
+    color: #747474;
+    font-weight: 500;
+    padding: 1vw 2.5vw;
+    background-color: aliceblue;
+    font-size: max(1vw, 13px);
+    border-radius: 30px;
+}
+@media (max-width: 430px) {
+    .header{
+        width: 100%;
+    height: 38vw;
+    /* margin: 30px auto; */
+    background: url('/header-img-1.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 20px;
+    /* filter: brightness(80%); */
+}
+.header-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 38vw;
+     border-radius: 20px;
+    background: rgba(0, 0, 0, 0.5);
+}
+}
+@media (max-width: 414px) {
+    .header{
+        width: 100%;
+    height: 50vw;
+    /* margin: 30px auto; */
+    background: url('/header-img-1.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 20px;
+    /* filter: brightness(80%); */
+}
+.header-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50vw;
+     border-radius: 20px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.header-content h2{
+    width: 120%;
+}
+}
+@media (max-width: 320px) {
+    .header{
+        width: 100%;
+    height: 55vw;
+    /* margin: 30px auto; */
+    background: url('/header-img-1.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 20px;
+    /* filter: brightness(80%); */
+}
+.header-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 55vw;
+     border-radius: 20px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.header-content h2{
+    width: 150%;
+}
+}

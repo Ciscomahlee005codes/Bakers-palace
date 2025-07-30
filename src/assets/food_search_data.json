@@ -1,0 +1,247 @@
+[
+  {
+    "id": 1,
+    "name": "Fried Rice and Pork",
+    "price": 3500,
+    "rating": 3,
+    "category": "Continental Dishes"
+  },
+  {
+    "id": 2,
+    "name": "Macroni and Fries",
+    "price": 4500,
+    "rating": 5,
+    "category": "Continental Dishes"
+  },
+  {
+    "id": 3,
+    "name": "Coconut Rice and Chicken",
+    "price": 3800,
+    "rating": 3,
+    "category": "Continental Dishes"
+  },
+  {
+    "id": 4,
+    "name": "Vegtarian Rice",
+    "price": 2000,
+    "rating": 4,
+    "category": "Continental Dishes"
+  },
+  {
+    "id": 5,
+    "name": "Beefed Shawarma",
+    "price": 6000,
+    "rating": 5,
+    "category": "Shawarma"
+  },
+  {
+    "id": 6,
+    "name": "Jellof Rice and Fish",
+    "price": 4750,
+    "rating": 5,
+    "category": "Continental Dishes"
+  },
+  {
+    "id": 7,
+    "name": "Moi Moi and Egg",
+    "price": 4800,
+    "rating": 3,
+    "category": "9ja Dishes"
+  },
+  {
+    "id": 8,
+    "name": "Burger King",
+    "price": 3100,
+    "rating": 2,
+    "category": "Burger"
+  },
+  {
+    "id": 9,
+    "name": "Bitter Leaf Soup and Akpu",
+    "price": 7500,
+    "rating": 4.5,
+    "category": "9ja Dishes"
+  },
+  {
+    "id": 10,
+    "name": "Rice, Amala and Kpomo",
+    "price": 7300,
+    "rating": 3.5,
+    "category": "9ja Dishes"
+  },
+  {
+    "id": 11,
+    "name": "Burger King (Belle Full)",
+    "price": 6000,
+    "rating": 2,
+    "category": "Burger"
+  },
+  {
+    "id": 12,
+    "name": "Chocolate Cake",
+    "price": 10500,
+    "rating": 5,
+    "category": "Cake"
+  },
+  {
+    "id": 13,
+    "name": "Strawberry Cake",
+    "price": 21500,
+    "rating": 4.5,
+    "category": "Cake"
+  },
+  {
+    "id": 14,
+    "name": "Jellof Rice, Pasta and Egg",
+    "price": 7800,
+    "rating": 3.5,
+    "category": "Continental Dishes"
+  },
+  {
+    "id": 15,
+    "name": "Chicken Pie",
+    "price": 3200,
+    "rating": 4.5,
+    "category": "Pastries"
+  },
+  {
+    "id": 16,
+    "name": "Family Sized Pizza",
+    "price": 12200,
+    "rating": 4,
+    "category": "Pizza"
+  },
+  {
+    "id": 17,
+    "name": "Ginger and Garlic Pizza",
+    "price": 6200,
+    "rating": 4,
+    "category": "Pizza"
+  },
+  {
+    "id": 18,
+    "name": "Orishirishi",
+    "price": 13000,
+    "rating": 4.5,
+    "category": "Continental Dishes"
+  },
+  {
+    "id": 19,
+    "name": "Foriegn Suya and Orishirishi",
+    "price": 14200,
+    "rating": 3.5,
+    "category": "Continental Dishes"
+  },
+  {
+    "id": 20,
+    "name": "Burger King II",
+    "price": 4300,
+    "rating": 4,
+    "category": "Burger"
+  },
+  {
+    "id": 21,
+    "name": "Choco Cup Cake",
+    "price": 4300,
+    "rating": 4,
+    "category": "Cake"
+  },
+  {
+    "id": 22,
+    "name": "Vanilla & Choco Cake",
+    "price": 14000,
+    "rating": 4,
+    "category": "Cake"
+  },
+  {
+    "id": 23,
+    "name": "Crisp Vanilla Ice cream",
+    "price": 7500,
+    "rating": 4,
+    "category": "Ice Cream"
+  },
+  {
+    "id": 24,
+    "name": "Chicken Shawarma",
+    "price": 5500,
+    "rating": 4.5,
+    "category": "Shawarma"
+  },
+  {
+    "id": 25,
+    "name": "Double Shawarma",
+    "price": 10500,
+    "rating": 4.5,
+    "category": "Shawarma"
+  },
+  {
+    "id": 26,
+    "name": "Shawarma",
+    "price": 7500,
+    "rating": 4.5,
+    "category": "Shawarma"
+  },
+  {
+    "id": 27,
+    "name": "French Pizza",
+    "price": 12500,
+    "rating": 4.5,
+    "category": "Pizza"
+  },
+  {
+    "id": 28,
+    "name": "Pizza and free Coke",
+    "price": 9500,
+    "rating": 4.5,
+    "category": "Pizza"
+  },
+  {
+    "id": 29,
+    "name": "3 in 1 Donuts",
+    "price": 9000,
+    "rating": 2,
+    "category": "Pastries"
+  },
+  {
+    "id": 30,
+    "name": "Apple Pie",
+    "price": 12000,
+    "rating": 4,
+    "category": "Pastries"
+  },
+  {
+    "id": 31,
+    "name": "Sausage Rolls",
+    "price": 7000,
+    "rating": 3.5,
+    "category": "Pastries"
+  },
+  {
+    "id": 32,
+    "name": "Burger & Fries",
+    "price": 8500,
+    "rating": 4.5,
+    "category": "Burger"
+  },
+  {
+    "id": 33,
+    "name": "2 in 1 Cone Vanilla",
+    "price": 6500,
+    "rating": 3.5,
+    "category": "Ice Cream"
+  },
+  {
+    "id": 34,
+    "name": "Chocolate Ice Cream",
+    "price": 5500,
+    "rating": 5,
+    "category": "Ice Cream"
+  },
+  {
+    "id": 35,
+    "name": "Choco Combo",
+    "price": 8500,
+    "rating": 4.5,
+    "category": "Ice Cream"
+  }
+]

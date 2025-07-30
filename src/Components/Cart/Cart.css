@@ -1,0 +1,144 @@
+.cart{
+    margin-top: 100px;
+}
+.cart-items-title{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr;
+    align-items: center;
+    color: grey;
+    font-size: max(1vw, 12px);
+}
+.cart-items-item{
+  margin: 10px 0px;
+  color: black;
+}
+.cart-items-item img{
+    width: 50px;
+}
+.cart hr{
+    height: 1px;
+    background-color: #e2e2e2;
+    border: none ;
+}
+.cart-bottom{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: max(12vw, 20px);
+}
+.cart-total{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.card-total-details{
+    display: flex;
+    justify-content: space-between;
+    color: #555;
+}
+.cart-total hr{
+    margin: 10px 0px;
+}
+#cart-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+#cart-content button{
+    border: none;
+    background-color: crimson;
+    color: white;
+    width: max(15vw, 200px);
+    padding: 12px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+     transition: opacity 0.3s ease, background-color 0.3s ease;
+}
+.checkout-button.proceeding {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+.card-promo-code{
+    flex: 1;
+}
+.card-promo-code p{
+    color: #555;
+}
+.card-promo-code-input{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eaeaea;
+    border-radius: 4px;
+}
+.card-promo-code-input input{
+    background: transparent;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+.card-promo-code-input button{
+    width: max(10vw, 150px);
+    padding: 12px 5px;
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 4px;
+}
+/* Promo Code Pop up */
+.promo-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.promo-popup-inner {
+  background: #fff;
+  padding: 24px 32px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  max-width: 350px;
+  width: 90%;
+}
+
+.promo-popup-inner p {
+  margin-bottom: 15px;
+  color: #c0392b;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.promo-popup-inner button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #e74c3c;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.promo-popup-inner button:hover {
+  background-color: #c0392b;
+}
+
+/* Responsive Design */
+@media (max-width: 750px) {
+    .cart-bottom{
+        flex-direction: column-reverse;
+    }
+    .card-promo-code{
+        justify-content: start;
+    }
+}

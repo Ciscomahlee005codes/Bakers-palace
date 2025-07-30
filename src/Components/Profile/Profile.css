@@ -1,0 +1,249 @@
+.img-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.b-points{
+    margin-top: 20px;
+    padding: 12px 22px;
+    background-color: #e3e3e3;
+    border-radius: 30px;
+    border: 1.5px solid crimson;
+}
+/* Accordion */
+.accordion{
+    margin: 60px auto;
+    width: 600px;
+}
+.accordion li{
+    width: 100%;
+    padding: 10px;
+    margin: 20px;
+    /* border-radius: 10px;
+    background-color: #ffffff; */
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15);
+    border-bottom: 1.5px gray solid;
+}
+.accordion li .label{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+/* Arrow animation */
+.arrow-icon {
+  margin-right: 10px;
+  transition: transform 0.3s ease;
+}
+.arrow-icon.rotate {
+  transform: rotate(90deg);
+}
+
+/* Accordion label update */
+/* Updated accordion label layout */
+.accordion .label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* Ensure label-text aligns icons + text well */
+.label-text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+/* Content animation */
+.accordion .content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, padding 0.5s ease;
+  padding: 0 10px;
+}
+.accordion .content.open {
+  max-height: 500px;
+  padding: 10px 10px 20px;
+}
+.user-basic-info {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.user-basic-info h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 4px 0;
+  color: #333;
+}
+
+.user-basic-info p {
+  font-size: 15px;
+  color: #555;
+  margin: 0;
+}
+
+/* .label::before{
+    content: '+';
+    margin-right: 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+input[type='checkbox']{
+    display: none;
+}
+
+ .accordion .content.open {
+  max-height: 1000px;
+  padding: 10px 10px 20px;
+  transition: all 0.5s ease;
+}
+.accordion input[type='checkbox']:checked + .label + .content{
+    max-height: 400px;
+    padding: 10px 10px 20px;
+}
+.accordion input[type='checkbox']:checked + .label::before{
+     content: '-';
+} */
+.content form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.content form input{
+    padding: 15px 20px;
+    background-color: gainsboro;
+    border: 1px solid #c5c5c5;
+    border-radius: 4px;
+    outline-color: crimson;
+}
+::placeholder{
+    color: rgb(78, 76, 76);
+}
+.cart-content, .cash{
+    display: flex;
+    justify-content: center;
+}
+.cash button{
+    padding: 12px 15px;
+    background-color: crimson;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 4.5px;
+    margin-top: 10px;
+}
+#cont{
+    text-align: center;
+}
+.img-container {
+  position: relative;
+  cursor: pointer;
+}
+
+.img-container img {
+  border-radius: 50%;
+  border: 2px solid #ccc;
+}
+
+.upload-icon {
+    position: relative;
+    left: 1.5rem;
+    bottom: 1rem;
+  background: white;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid goldenrod;
+}
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.popup {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  animation: popupFadeIn 0.3s ease-in-out;
+}
+
+.popup p {
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+
+.popup button {
+  background-color: #ff7675;
+  color: white;
+  padding: 0.5rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+@keyframes popupFadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.85);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 430px) {
+    .accordion{
+    margin: 60px auto;
+    width: 100%;
+}
+    .accordion li{
+    width: 100%;
+    padding: 10px;
+    margin: 20px;
+    /* border-radius: 10px;
+    background-color: #ffffff; */
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15);
+    border-bottom: 1.5px gray solid;
+}
+}
+@media (max-width: 375px) {
+    .label-text{
+        font-size: 17px;
+    }
+}
+@media (max-width: 360px) {
+    .label-text{
+        font-size: 15px;
+    }
+}
